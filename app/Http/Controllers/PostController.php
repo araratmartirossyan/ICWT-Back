@@ -51,7 +51,7 @@ class PostController extends Controller {
 
   public function getPost(Request $request, $id) {
     $item = Post::find($id);
-    return response() -> json($item)
+    return response() -> json($item);
   }
 
 }
