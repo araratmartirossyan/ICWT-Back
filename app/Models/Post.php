@@ -1,17 +1,17 @@
 <?php
- 
+
 namespace App\Models;
- 
+
 use Illuminate\Database\Eloquent\Model;
- 
+
 class Post extends Model
- 
-{ 
-   protected $fillable = [
-     'logo',
-     'image',
-     'title',
-     'description',
-     'text'
+
+{
+    protected $fillable = [
+        'logo',
+        'image',
+        'title',
+        'description',
+        'text'
     ];
 }
